@@ -1,0 +1,28 @@
+// importing variables
+
+@import "../src/scss/variables.scss";
+
+// importing components
+
+@import "../src/components/navbar/navbar.scss";
+@import "../src/components/header/header.scss";
+@import "../src/components/about/about.scss";
+@import "../src/components/projects/projects.scss";
+@import "../src/components/footer/footer.scss";
+
+//styled-items
+
+@import "../src/components/styled-items/styled-items.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+// background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+
+// https://codepen.io/ProTechThor/pen/yLyvBBd

@@ -1,47 +1,17 @@
-.nav__elephant--container {
-  background-color: #fff;
-  box-shadow: 1px 1px 30px -28px black;
-}
-
-.nav__horse--container {
-  height: 6em;
-  width: 75vw;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navlinks__container {
-  display: flex;
-  list-style: none;
-}
-
-.navlink {
-  padding: 0 0.5rem;
-  font-size: 1rem;
-  text-decoration: none;
-  font-family: poppins;
-  color: #f7186a;
-}
-
-.navlinks__separator--dot {
-  font-size: 2em;
-  margin: 0 0.2em;
-  margin-top: -0.4em;
-}
-
-.logo img {
-  height: 2.5em;
-}
-
 .button {
+  //   margin: 10%;
   /* Centralize text */
   text-align: center;
 }
 
 .btn-hover {
-  background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #fbb03b);
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
   /* Gives the button a shadow for a neon-like glow */
   box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
@@ -54,10 +24,12 @@
   cursor: pointer;
   padding: 0.8em 1.5em;
   border: none;
+
   /* This affects the gradient background size. By putting a background width to be 300% (above 100%), only the beginning portion of this background will be shown. When hovered, the background will shift towards the end, giving the illustion of a moving gradient*/
   background-size: 300% 100%;
   /* Curves the button */
   border-radius: 50px;
+
   /* Transition duration and style */
   moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -73,15 +45,3 @@
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-}
-
-/*# sourceMappingURL=App.css.map */
