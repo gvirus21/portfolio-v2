@@ -1,0 +1,23 @@
+.herosection__elephant--container {
+  height: 20em;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.herosection__info--container {
+  width: 40em;
+}
+
+.herosection__info--container h1 {
+  font-size: 4em;
+}
+
+.herosection__info--container p {
+  font-size: 2em;
+}
+
+.herosection__hero--graphics img {
+  height: 30em;
+}
