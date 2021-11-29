@@ -21,14 +21,15 @@
   padding: 0 0.5rem;
   font-size: 1rem;
   text-decoration: none;
-  font-family: poppins;
+  font-family: "NeueMontreal";
+  font-weight: 400;
   color: #f7186a;
 }
 
 .navlinks__separator--dot {
   font-size: 2em;
   margin: 0 0.2em;
-  margin-top: -0.4em;
+  margin-top: -0.6em;
 }
 
 .logo img {
@@ -38,7 +39,7 @@
 .herosection__elephant--container {
   height: 20em;
   width: 80%;
-  margin: auto;
+  margin: 5em auto;
   display: flex;
   justify-content: space-between;
 }
@@ -72,6 +73,8 @@
 
 .btn-hover {
   /* Text size and boldness*/
+  font-family: "NeueMontreal";
+  text-transform: capitalize;
   font-size: 1em;
   font-weight: 700;
   color: #fff;
@@ -106,6 +109,32 @@
 
 body {
   height: 100vh;
+  font-family: NeueMontreal;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Light.otf);
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Regular.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Medium.otf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Bold.otf);
+  font-style: normal;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=App.css.map */
