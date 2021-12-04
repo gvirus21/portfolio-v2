@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: NeueMontreal;
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Light.otf);
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Regular.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Medium.otf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(fonts/NeueMontreal-Bold.otf);
+  font-style: normal;
+  font-weight: 700;
+}
 .nav__elephant--container {
   background-color: #fff;
   box-shadow: 1px 1px 30px -28px black;
@@ -99,42 +134,6 @@
   -o-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-  font-family: NeueMontreal;
-}
-
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(fonts/NeueMontreal-Light.otf);
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(fonts/NeueMontreal-Regular.otf);
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(fonts/NeueMontreal-Medium.otf);
-  font-style: normal;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(fonts/NeueMontreal-Bold.otf);
-  font-style: normal;
-  font-weight: 700;
 }
 
 /*# sourceMappingURL=App.css.map */

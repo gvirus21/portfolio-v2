@@ -1,5 +1,5 @@
 import React from "react";
-import graphic from "../../img/undraw-1.svg";
+import graphic from "../img/undraw-1.svg";
 
 const HeroSection = () => {
   return (

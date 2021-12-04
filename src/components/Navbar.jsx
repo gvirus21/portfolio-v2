@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import Button from "../styled-items/Button";
-import logo from "../../img/logo.svg";
+import { Button } from "../reusableComponents";
+import logo from "../img/logo.svg";
 
 const Navbar = () => {
   return (
