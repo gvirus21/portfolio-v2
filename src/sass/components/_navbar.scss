@@ -20,9 +20,13 @@
   list-style: none;
 }
 
+.logo img {
+  height: 2.5em;
+}
 .navlink {
   padding: 0 1.5rem;
-  font-size: 1rem;
+  font-family: "space mono";
+  font-size: 1.1rem;
   text-decoration: none;
   text-transform: capitalize;
   color: #f7186a;
@@ -32,8 +36,4 @@
   font-size: 2em;
   margin: 0 0.2em;
   margin-top: -0.6em;
-}
-
-.logo img {
-  height: 2.5em;
 }
