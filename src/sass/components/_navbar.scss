@@ -1,6 +1,9 @@
 .nav__elephant--container {
   background-color: #fff;
-  box-shadow: 1px 1px 30px -28px black;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .nav__horse--container {
@@ -18,12 +21,12 @@
 }
 
 .navlink {
-  padding: 0 0.5rem;
+  padding: 0 1.5rem;
   font-size: 1rem;
   text-decoration: none;
-  font-family: "NeueMontreal";
-  font-weight: 400;
+  text-transform: capitalize;
   color: #f7186a;
+  // color: black;
 }
 
 .navlinks__separator--dot {

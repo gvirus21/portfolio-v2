@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Button } from "../reusableComponents";
 import logo from "../img/logo.svg";
 
 const Navbar = () => {
@@ -18,21 +17,22 @@ const Navbar = () => {
               Home
             </a>
           </li>
-          <li className="navlinks__separator--dot">.</li>
           <li>
             <a className="navlink" href="">
               About
             </a>
           </li>
-          <li className="navlinks__separator--dot">.</li>
           <li>
             <a className="navlink" href="">
               Projects
             </a>
           </li>
+          <li>
+            <a className="navlink" href="">
+              Contact me
+            </a>
+          </li>
         </ul>
-
-        <Button name="contact me" />
       </div>
     </div>
   );

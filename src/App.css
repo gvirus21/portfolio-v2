@@ -6,36 +6,15 @@
 
 body {
   height: 100vh;
-  font-family: NeueMontreal;
+  font-family: Poppins;
 }
 
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(fonts/NeueMontreal-Light.otf);
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(fonts/NeueMontreal-Regular.otf);
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(fonts/NeueMontreal-Medium.otf);
-  font-style: normal;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "NeueMontreal";
-  src: url(fonts/NeueMontreal-Bold.otf);
-  font-style: normal;
-  font-weight: 700;
-}
 .nav__elephant--container {
   background-color: #fff;
-  box-shadow: 1px 1px 30px -28px black;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .nav__horse--container {
@@ -53,11 +32,10 @@ body {
 }
 
 .navlink {
-  padding: 0 0.5rem;
+  padding: 0 1.5rem;
   font-size: 1rem;
   text-decoration: none;
-  font-family: "NeueMontreal";
-  font-weight: 400;
+  text-transform: capitalize;
   color: #f7186a;
 }
 
