@@ -11,6 +11,10 @@ body {
   font-family: Poppins;
 }
 
+.logo img {
+  height: 2.5em;
+}
+
 .nav__elephant--container {
   background-color: #fff;
   width: 100vw;
@@ -18,7 +22,6 @@ body {
   top: 0;
   left: 0;
 }
-
 .nav__horse--container {
   height: 6em;
   width: 75vw;
@@ -26,15 +29,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.navlinks__container {
-  display: flex;
-  list-style: none;
-}
-
-.logo img {
-  height: 2.5em;
 }
 
 .navlink {
@@ -45,11 +39,9 @@ body {
   text-transform: capitalize;
   color: #f7186a;
 }
-
-.navlinks__separator--dot {
-  font-size: 2em;
-  margin: 0 0.2em;
-  margin-top: -0.6em;
+.navlink__container {
+  display: flex;
+  list-style: none;
 }
 
 .herosection__elephant--container {

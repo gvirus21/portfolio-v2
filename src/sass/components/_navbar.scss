@@ -1,28 +1,26 @@
-.nav__elephant--container {
-  background-color: #fff;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.nav__horse--container {
-  height: 6em;
-  width: 75vw;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navlinks__container {
-  display: flex;
-  list-style: none;
-}
-
 .logo img {
   height: 2.5em;
 }
+
+.nav {
+  &__elephant--container {
+    background-color: #fff;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  &__horse--container {
+    height: 6em;
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .navlink {
   padding: 0 1.5rem;
   font-family: "space mono";
@@ -30,10 +28,9 @@
   text-decoration: none;
   text-transform: capitalize;
   color: #f7186a;
-}
 
-.navlinks__separator--dot {
-  font-size: 2em;
-  margin: 0 0.2em;
-  margin-top: -0.6em;
+  &__container {
+    display: flex;
+    list-style: none;
+  }
 }

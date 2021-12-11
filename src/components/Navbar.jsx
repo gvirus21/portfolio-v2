@@ -11,7 +11,7 @@ const Navbar = () => {
             <img src={logo} alt="gv-logo" />
           </div>
         </div>
-        <ul className="navlinks__container">
+        <ul className="navlink__container">
           <li>
             <a className="navlink" href="">
               Home
