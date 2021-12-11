@@ -2,10 +2,16 @@
   height: 2.5em;
 }
 
+.menu-icon {
+  font-size: 2em;
+  display: none;
+  color: $primary-color;
+}
+
 .nav {
   &__elephant--container {
     background-color: #fff;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -13,7 +19,7 @@
 
   &__horse--container {
     height: 6em;
-    width: 75vw;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -27,10 +33,21 @@
   font-size: 1.1rem;
   text-decoration: none;
   text-transform: capitalize;
-  color: #f7186a;
+  color: $primary-color;
 
   &__container {
     display: flex;
     list-style: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menu-icon {
+    font-size: 2em;
+    display: block;
+  }
+
+  .navlink__container {
+    display: none;
   }
 }
