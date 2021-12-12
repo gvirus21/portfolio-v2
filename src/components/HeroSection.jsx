@@ -24,4 +24,3 @@ const HeroSection = () => {
 
 export default HeroSection;
 
-//sf mono

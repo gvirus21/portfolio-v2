@@ -23,13 +23,14 @@ body {
 
 .nav__elephant--container {
   background-color: #fff;
+  z-index: 100;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
 }
 .nav__horse--container {
-  height: 8em;
+  height: 6em;
   width: 75%;
   margin: 0 auto;
   display: flex;

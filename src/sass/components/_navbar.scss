@@ -11,6 +11,7 @@
 .nav {
   &__elephant--container {
     background-color: #fff;
+    z-index: 100;
     width: 100%;
     position: fixed;
     top: 0;
@@ -18,7 +19,7 @@
   }
 
   &__horse--container {
-    height: 8em;
+    height: 6em;
     width: 75%;
     margin: 0 auto;
     display: flex;
@@ -42,10 +43,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  // .nav__horse--container {
-  //   height: 8em;
-  // }
-
   .menu-icon {
     font-size: 2em;
     display: block;
