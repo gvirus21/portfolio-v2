@@ -21,19 +21,37 @@
 
   &__info--container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     margin: 0 2em;
 
-    &-upper {
+    &-name {
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
       align-items: center;
 
-      h1 {
+      .h1_name {
         font-size: 7rem;
         font-weight: 500;
         width: 40rem;
       }
+
+      .h1_title {
+        font-size: 7rem;
+        font-weight: 500;
+        width: 40rem;
+        text-align: right;
+      }
+    }
+    &-info {
+      display: flex;
+      height: 15em;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
       p {
         font-family: "space mono";
         font-size: 1.1rem;
@@ -41,18 +59,7 @@
         text-align: center;
         width: 20em;
       }
-    }
-    &-lower {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
 
-      h1 {
-        font-size: 7rem;
-        font-weight: 500;
-        width: 40rem;
-        text-align: right;
-      }
       a {
         font-size: 1rem;
         font-family: "space mono";
@@ -66,4 +73,7 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 800px) {
 }
