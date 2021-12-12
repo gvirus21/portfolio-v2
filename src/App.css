@@ -67,6 +67,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  min-width: 35rem;
 }
 .herosection__greet--container h2 {
   font-family: "space mono";
@@ -126,6 +127,53 @@ body {
   border: 2px solid #f7186a;
 }
 
+@media screen and (max-width: 1500px) {
+  .herosection__elephant--container {
+    width: 50%;
+  }
+  .herosection__info--container {
+    flex-direction: column;
+  }
+  .herosection__info--container-name .h1_name {
+    font-size: 5rem;
+    text-align: left;
+    width: 30rem;
+  }
+  .herosection__info--container-name .h1_title {
+    font-size: 5rem;
+    text-align: right;
+    width: 30rem;
+  }
+  .herosection__info--container-info p {
+    margin: 3em 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .herosection__elephant--container {
+    min-width: 25rem;
+  }
+  .herosection__info--container-name .h1_name {
+    width: 5em;
+    text-align: left;
+  }
+  .herosection__info--container-name .h1_title {
+    width: 5em;
+    text-align: right;
+  }
+}
+@media screen and (max-width: 450px) {
+  .herosection__elephant--container {
+    min-width: 20rem;
+  }
+  .herosection__info--container-name .h1_name {
+    width: 4em;
+    text-align: left;
+  }
+  .herosection__info--container-name .h1_title {
+    width: 4em;
+    text-align: right;
+  }
+}
 .button {
   /* Centralize text */
   text-align: center;
