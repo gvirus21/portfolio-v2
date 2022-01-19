@@ -29,6 +29,7 @@ body {
   top: 0;
   left: 0;
 }
+
 .nav__horse--container {
   height: 6em;
   width: 75%;
@@ -46,6 +47,7 @@ body {
   text-transform: capitalize;
   color: #f7186a;
 }
+
 .navlink__container {
   display: flex;
   list-style: none;
@@ -56,11 +58,11 @@ body {
     font-size: 2em;
     display: block;
   }
-
   .navlink__container {
     display: none;
   }
 }
+
 .herosection__elephant--container {
   width: 75%;
   margin: 10em auto;
@@ -70,14 +72,17 @@ body {
   position: relative;
   min-width: 35rem;
 }
+
 .herosection__greet--container h2 {
   font-family: "space mono";
   font-size: 2em;
   font-weight: 400;
 }
+
 .herosection__greet--container h2 span {
   color: #f7186a;
 }
+
 .herosection__info--container {
   display: flex;
   justify-content: space-between;
@@ -85,23 +90,27 @@ body {
   align-items: center;
   margin: 0 2em;
 }
+
 .herosection__info--container-name {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
+
 .herosection__info--container-name .h1_name {
   font-size: 7rem;
   font-weight: 500;
   width: 40rem;
 }
+
 .herosection__info--container-name .h1_title {
   font-size: 7rem;
   font-weight: 500;
   width: 40rem;
   text-align: right;
 }
+
 .herosection__info--container-info {
   display: flex;
   height: 15em;
@@ -109,6 +118,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .herosection__info--container-info p {
   font-family: "space mono";
   font-size: 1.1rem;
@@ -116,6 +126,7 @@ body {
   text-align: center;
   width: 20em;
 }
+
 .herosection__info--container-info a {
   font-size: 1rem;
   font-family: "space mono";
@@ -149,6 +160,7 @@ body {
     margin: 3em 0;
   }
 }
+
 @media screen and (max-width: 800px) {
   .herosection__elephant--container {
     min-width: 25rem;
@@ -162,6 +174,7 @@ body {
     text-align: right;
   }
 }
+
 @media screen and (max-width: 450px) {
   .herosection__elephant--container {
     min-width: 20rem;
@@ -175,6 +188,7 @@ body {
     text-align: right;
   }
 }
+
 .about__elephant--container {
   width: 90rem;
   margin: 5rem auto;
@@ -182,14 +196,14 @@ body {
   flex-direction: column;
   position: relative;
 }
+
 .about__elephant--container .about-heading {
-  width: 80rem;
-  margin: 0 auto;
   font-size: 7rem;
   font-weight: 500;
   z-index: 10;
   text-align: right;
 }
+
 .about__horse--container {
   width: 70%;
   margin: 5rem auto;
@@ -197,9 +211,11 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .about__horse--container-image-container {
   height: 18rem;
 }
+
 .about__horse--container-image-container .profile-image {
   height: 15rem;
   width: 15rem;
@@ -208,6 +224,7 @@ body {
   position: relative;
   z-index: 10;
 }
+
 .about__horse--container-image-container .profile-image-shadow {
   height: 15rem;
   width: 15rem;
@@ -215,6 +232,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
   margin: -13rem -1rem;
 }
+
 .about__horse--container-info p {
   font-size: 1rem;
   font-family: "space mono";
@@ -223,9 +241,11 @@ body {
   position: relative;
   z-index: 10;
 }
+
 .about__horse--container-info .techstack__list {
   margin-left: 5em;
 }
+
 .about__horse--container-info .techstack__list p {
   font-size: 0.8rem;
   font-family: "space mono";
@@ -242,7 +262,6 @@ body {
   .about__elephant--container .about-heading {
     font-size: 5rem;
     text-align: center;
-    width: 20rem;
   }
   .about__horse--container {
     display: flex;
@@ -253,7 +272,7 @@ body {
   }
   .about__horse--container-image-container {
     height: 12rem;
-    margin-bottom: 2rem;
+    margin: 0;
   }
   .about__horse--container-image-container .profile-image {
     height: 10rem;
@@ -275,6 +294,7 @@ body {
     margin-left: 3rem;
   }
 }
+
 .button {
   /* Centralize text */
   text-align: center;
@@ -302,8 +322,6 @@ body {
   border-radius: 50px;
   /* Transition duration and style */
   moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -311,9 +329,6 @@ body {
   background-position: 100% 0;
   /* Duration of gradient transition */
   moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=main.css.map */
