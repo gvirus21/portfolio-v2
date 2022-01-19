@@ -1,41 +1,35 @@
 .about {
   &__elephant--container {
-    width: 70rem;
+    width: 90rem;
     margin: 5rem auto;
     display: flex;
+    flex-direction: column;
     position: relative;
 
     .about-heading {
       font-size: 7rem;
       font-weight: 500;
       z-index: 10;
-
-      position: absolute;
-      top: 0;
-      right: 0;
+      text-align: right;
     }
   }
 
   &__horse--container {
-    width: 90%;
-    min-width: 50rem;
-    margin: 12rem auto;
-    position: relative;
+    width: 70%;
+    margin: 5rem auto;
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
     &-image-container {
-      margin-top: -15rem;
+      height: 18rem;
 
       .profile-image {
         height: 15rem;
         width: 15rem;
         border-radius: 55%;
         background-color: $primary-color;
-        position: relative;
-        z-index: 10;
 
         &-shadow {
           height: 15rem;
@@ -53,6 +47,8 @@
         font-family: "space mono";
         max-width: 35rem;
         margin: 1rem 1rem;
+        position: relative;
+        z-index: 10;
       }
 
       .techstack__list {
@@ -63,6 +59,54 @@
           font-family: "space mono";
           max-width: 35rem;
           margin: 0.5rem 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about {
+    &__elephant--container {
+      flex-direction: column;
+      width: 80vw;
+
+      .about-heading {
+        font-size: 5rem;
+        left: 5rem;
+        text-align: center;
+      }
+    }
+
+    &__horse--container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      &-image-container {
+        height: 12rem;
+        margin: 1rem 0;
+
+        .profile-image {
+          height: 10rem;
+          width: 10rem;
+          border-radius: 55%;
+          background-color: $primary-color;
+          position: relative;
+          z-index: 10;
+
+          &-shadow {
+            height: 10rem;
+            width: 10rem;
+            margin: -8rem 1rem;
+          }
+        }
+      }
+
+      &-info {
+        .techstack__list {
+          margin-left: 3rem;
         }
       }
     }
