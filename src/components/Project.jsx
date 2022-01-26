@@ -4,8 +4,8 @@ import projectImg from "../img/project-img.jpg";
 const Project = () => {
   return (
     <div className="Project__elephant-container">
-      <div className="Project__horse-container">
         <h1 className="project-heading">Projects</h1>
+      <div className="Project__horse-container">
         <div className="project-container">
           <img src={projectImg} alt="" />
           <div className="project-info">

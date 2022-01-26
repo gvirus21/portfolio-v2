@@ -315,9 +315,40 @@ body {
     margin-left: 5rem;
   }
 }
-.Project__horse-container .project-heading {
+.Project__elephant-container {
+  width: 80rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Project__elephant-container .project-heading {
+  font-size: 7rem;
+  font-weight: 500;
+}
+.Project__horse-container {
+  margin: 5rem 0;
+}
+.Project__horse-container .project-container {
+  display: flex;
+  justify-content: space-between;
+}
+.Project__horse-container .project-container img {
+  height: 25rem;
+  border-radius: 10px;
+}
+.Project__horse-container .project-container .project-info h1 {
   font-size: 5rem;
   font-weight: 500;
+  margin: 1rem 2rem;
+}
+.Project__horse-container .project-container .project-info p {
+  font-size: 1rem;
+  font-family: "space mono";
+  max-width: 35rem;
+  margin: 1rem 2rem;
+  position: relative;
+  z-index: 10;
 }
 
 .button {
