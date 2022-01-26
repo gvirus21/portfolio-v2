@@ -315,6 +315,11 @@ body {
     margin-left: 5rem;
   }
 }
+.Project__horse-container .project-heading {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
 .button {
   /* Centralize text */
   text-align: center;

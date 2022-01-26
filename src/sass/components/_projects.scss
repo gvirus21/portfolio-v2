@@ -1,0 +1,11 @@
+.Project {
+  &__elephant-container {
+  }
+
+  &__horse-container {
+    .project-heading {
+      font-size: 5rem;
+      font-weight: 500;
+    }
+  }
+}
