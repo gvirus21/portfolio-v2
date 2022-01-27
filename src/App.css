@@ -330,6 +330,7 @@ body {
   margin: 5rem 0;
 }
 .Project__horse-container .project-container {
+  margin: 5rem 0;
   display: flex;
   justify-content: space-between;
 }

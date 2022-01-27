@@ -18,6 +18,30 @@ const Project = () => {
             <div className="btn-container"></div>
           </div>
         </div>
+        <div className="project-container">
+          <img src={projectImg} alt="" />
+          <div className="project-info">
+            <h1>Yogavan</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laudantium asperiores eaque nihil ab soluta a, pariatur aliquid
+              quasi dolores!
+            </p>
+            <div className="btn-container"></div>
+          </div>
+        </div>
+        <div className="project-container">
+          <img src={projectImg} alt="" />
+          <div className="project-info">
+            <h1>Yogavan</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laudantium asperiores eaque nihil ab soluta a, pariatur aliquid
+              quasi dolores!
+            </p>
+            <div className="btn-container"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
