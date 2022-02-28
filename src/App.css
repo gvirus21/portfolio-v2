@@ -315,11 +315,99 @@ body {
     margin-left: 5rem;
   }
 }
-.Project__horse-container .project-heading {
-  font-size: 5rem;
+.Project__elephant-container {
+  width: 80rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Project__elephant-container .project-heading {
+  font-size: 7rem;
   font-weight: 500;
 }
+.Project__horse-container {
+  margin: 5rem 0;
+}
+.Project__horse-container .project-container {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Project__horse-container .project-container img {
+  height: 25rem;
+  border-radius: 10px;
+}
+.Project__horse-container .project-container .project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.Project__horse-container .project-container .project-info h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  margin: 1rem 2rem;
+}
+.Project__horse-container .project-container .project-info p {
+  font-size: 1rem;
+  font-family: "space mono";
+  max-width: 35rem;
+  margin: 1rem 2rem;
+  position: relative;
+  z-index: 10;
+}
+.Project__horse-container .project-container .btn-container {
+  margin: 1rem 0;
+}
+.Project__horse-container .project-container .btn-container .btn-innerContainer {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+}
+.Project__horse-container .project-container .btn-container .btn-innerContainer .icon {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+.Project__horse-container .project-container .btn-container .btn-innerContainer .icon :hover {
+  color: #f7186a;
+  transition: all 0.3s ease;
+}
 
+@media screen and (max-width: 1500px) {
+  .Project__elephant-container {
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+  }
+  .Project__elephant-container .project-heading {
+    font-size: 5rem;
+    font-weight: 500;
+  }
+  .Project__horse-container {
+    margin: 1rem 0;
+    flex-direction: column;
+    width: 80vw;
+  }
+  .Project__horse-container .project-container {
+    flex-direction: column;
+  }
+  .Project__horse-container .project-container img {
+    height: 10rem;
+    border-radius: 5px;
+    margin: 2px 0;
+  }
+  .Project__horse-container .project-container .project-info h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .Project__horse-container .project-container .project-info .btn-container {
+    justify-content: center;
+  }
+  .Project__horse-container .project-container .project-info .btn-container .btn-innerContainer {
+    align-items: center;
+    justify-content: center;
+  }
+}
 .button {
   /* Centralize text */
   text-align: center;
